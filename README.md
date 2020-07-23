@@ -1,7 +1,7 @@
 # portfolio
-```
+```js
 funtion sayHello(){
- return 'hi! World';
+ return 'hi, World!';
  }
 ```
 ## A imagem ilustrada abaixo demostra em detalhes a construção da versão 2 do meu por2tfólio pessoal.
