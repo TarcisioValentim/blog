@@ -1,6 +1,6 @@
 # portfolio
 ```js
-funtion sayHello(){
+function sayHello(){
  return 'hi, World!';
  }
 ```
