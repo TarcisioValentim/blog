@@ -84,26 +84,19 @@
     width: 50%;
 }
 
+.about .imgBx {
+    background: url(/img/window.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
 .heading {
     color: #fff;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
-}
-
-.text {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-
-.about .imgBx {
-    background: url(/img/window.jpg);
-    width: 50%;
-    background-size: cover;
-    background-position: center;
 }
 
 .knowledges {
@@ -169,9 +162,11 @@
     padding: 100px;
     text-align: center;
 }
-.client h2{
+
+.client h2 {
     background: #fff;
 }
+
 .client .imgBx {
     display: flex;
     justify-content: space-between;
@@ -180,7 +175,7 @@
     margin-top: 40px;
 }
 
-.client .imgBx img{
+.client .imgBx img {
     max-width: 200px;
     margin: 20px;
     opacity: 0.25;
@@ -242,7 +237,6 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    
 }
 
 .form .inputBx {
@@ -290,38 +284,26 @@
     color: #111;
     cursor: pointer;
     font-weight: 400;
-    
 }
-
 
 .footer {
+    padding: 100px;
     background: #162c3b;
-    padding: 20px 500px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 
-.footer .text {
-    position: absolute;
+.footer .foo-text {
+    position: relative;
     text-decoration: none;
 }
-/*
-.footer ul li {
-    list-style: none;
+
+.text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
-.footer ul li a {
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.footer ul li a img {
-    filter: invert(1);
-    max-width: 20px;
-}
-*/
 @media (max-width: 991px) {
     .banner {
         padding: 50px;
@@ -390,9 +372,8 @@
     .footer {
         padding: 20px 50px;
         flex-direction: column-reverse;
-        text-align: center;
     }
-    .footer ul {
-        margin-bottom: 20px;
+    .footer .foo-text {
+        text-align: center;
     }
 }
