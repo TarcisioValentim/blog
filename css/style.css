@@ -163,26 +163,33 @@
     text-align: center;
 }
 
-.client h2 {
+
+.social {
+    background: #162c3b;
+    padding: 100px;
+    text-align: center;
+}
+
+.social h2 {
     background: #fff;
 }
 
-.client .imgBx {
+.social .imgBx {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
-.client .imgBx img {
+.social .imgBx img {
     max-width: 200px;
     margin: 20px;
     opacity: 0.25;
     cursor: pointer;
 }
 
-.client .imgBx img:hover {
+.social .imgBx img:hover {
     opacity: 1;
 }
 
@@ -349,10 +356,10 @@
         margin-top: 40px;
         max-width: 250px;
     }
-    .client {
+    .social {
         padding: 50px;
     }
-    .client .imgBx {
+    .social .imgBx {
         justify-content: center;
     }
     .testimonials {
