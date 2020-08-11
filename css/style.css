@@ -122,6 +122,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s;
+}
+
+.knowledges .container .serviceBx:hover {
+    background-color: #3475ca;
 }
 
 .knowledges .container .serviceBx img {
